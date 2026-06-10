@@ -14,7 +14,7 @@ with open("house_price_model.pkl", "rb") as f:
 # Load Dataset
 # -----------------------------------
 
-df = pd.read_csv("E:\\projects\\kc_house_data.csv")
+df = pd.read_csv("kc_house_data.csv")
 df = df.drop(columns=["id", "date"])
 
 # -----------------------------------
