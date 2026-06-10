@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from sklearn.model_selection import cross_val_score
 import pickle
 # Load the dataset
-df = pd.read_csv('app.py\kc_house_data.csv')
+df = pd.read_csv('kc_house_data.csv')
 print(df.head())
 # Data preprocessing
 df=df.drop(columns=['id','date'])
